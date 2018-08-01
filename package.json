@@ -1,0 +1,24 @@
+{
+  "name": "@bill876/audio-meter",
+  "version": "1.0.0",
+  "description": "Basic volume meter on a live audio output",
+  "main": "audio-meter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bill876/audio-meter.git"
+  },
+  "keywords": [
+    "volume",
+    "audio",
+    "meter"
+  ],
+  "author": "bill876",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bill876/audio-meter/issues"
+  },
+  "homepage": "https://github.com/bill876/audio-meter#readme"
+}
