@@ -2,9 +2,10 @@
   "name": "@bill876/audio-meter",
   "version": "1.0.0",
   "description": "Basic volume meter on a live audio output",
-  "main": "audio-meter.js",
+  "main": "dist/audio-meter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/bill876/audio-meter/issues"
   },
-  "homepage": "https://github.com/bill876/audio-meter#readme"
+  "homepage": "https://github.com/bill876/audio-meter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
